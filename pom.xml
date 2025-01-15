@@ -75,7 +75,10 @@
         	<version>1.5.3.Final</version>
         	<scope>provided</scope>
     	</dependency>
-    	
+    	<dependency>
+    		<groupId>org.postgresql</groupId>
+    		<artifactId>postgresql</artifactId>
+		</dependency>
     	<dependency>
     		<groupId>mysql</groupId>
     		<artifactId>mysql-connector-java</artifactId>
