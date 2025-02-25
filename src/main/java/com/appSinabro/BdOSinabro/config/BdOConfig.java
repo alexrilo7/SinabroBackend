@@ -9,7 +9,7 @@ public class BdOConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permite CORS para todas las rutas
-                .allowedOrigins("http://localhost:4200") // Cambia a la URL de tu frontend
+                .allowedOrigins("https://alexrilo7.github.io") // Cambia a la URL de tu frontend
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Métodos permitidos
                 .allowedHeaders("*") // Permite todos los encabezados
                 .allowCredentials(true); // Permite credenciales (opcional)
